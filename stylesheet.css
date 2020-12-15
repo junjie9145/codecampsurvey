@@ -1,33 +1,42 @@
 html {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: monospace;
     background-color: bisque;
     background-image: url(whiskeywall.jpeg);
 
 }
 header {
     text-align: center;
+    font-style: oblique;
+    color: #320B00;
+}
+#discription {
+  font-size: larger;
+  text-decoration: underline;
+  font-weight: 300;
 }
 #survey-form {
-  margin: 25px 100px 0 100px;
   padding-top: 25px;
   padding-left: 25px;
   padding-bottom: 25px;
   background: rgba(215, 236, 236, 0.6);
-  border-radius: 10px;  
+  border-radius: 10px;
+  display: block;
 }
-#number {
-    margin-left: 15px;
+#name {
+    width: 90%;
+}
+#email {
+    width: 90%;
 }
 #whiskeystories {
     min-height: 120px;
-    width: 740px;
-    border: none;
-    resize: vertical;;
+    width: 90%;
+    resize: vertical;
 }
 #submit {
     background: rgb(50, 37, 56);
     color: whitesmoke;
     border: none;
-    width: 742px;
-    height: 20px;
+    width: 90%;
+    height: 25px;
 }
