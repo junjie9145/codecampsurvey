@@ -21,22 +21,34 @@ header {
   background: rgba(215, 236, 236, 0.6);
   border-radius: 10px;
   display: block;
+<<<<<<< HEAD
 }
 #name {
     width: 90%;
+=======
+>>>>>>> a210bf498b63e796043a8421d9115797bc78556a
 }
 #email {
     width: 90%;
 }
 #whiskeystories {
     min-height: 120px;
+<<<<<<< HEAD
     width: 90%;
+=======
+    width: 100%
+    border: none;
+>>>>>>> a210bf498b63e796043a8421d9115797bc78556a
     resize: vertical;
 }
 #submit {
     background: rgb(50, 37, 56);
     color: whitesmoke;
     border: none;
+<<<<<<< HEAD
     width: 90%;
     height: 25px;
+=======
+    height: 20px;
+>>>>>>> a210bf498b63e796043a8421d9115797bc78556a
 }
