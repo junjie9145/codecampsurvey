@@ -20,14 +20,12 @@ header {
 }
 #whiskeystories {
     min-height: 120px;
-    width: 740px;
     border: none;
-    resize: vertical;;
+    resize: vertical;
 }
 #submit {
     background: rgb(50, 37, 56);
     color: whitesmoke;
     border: none;
-    width: 742px;
     height: 20px;
 }
