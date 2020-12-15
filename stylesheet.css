@@ -13,13 +13,15 @@ header {
   padding-left: 25px;
   padding-bottom: 25px;
   background: rgba(215, 236, 236, 0.6);
-  border-radius: 10px;  
+  border-radius: 10px;
+  display: block;
 }
 #number {
     margin-left: 15px;
 }
 #whiskeystories {
     min-height: 120px;
+    width: 100%
     border: none;
     resize: vertical;
 }
