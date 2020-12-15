@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wiskey Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" >
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Junjie's Online Wiskey Survey</h1>
+            <p id="discription">I would like some feedback on different types of wiskeys you enjoy!</p>
+        </header>
+        <main>
+            <form id="survey-form">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" placeholder="Please enter your name" required>
+               <br>
+                <label id="email-label" for="email">Email</label>
+                <input id="email" type="email" placeholder="Please enter your email" required>
+               <br> 
+                <label id="number-label" for="number">Age</label>
+                <input id="number" type="number" min="1" max="100" placeholder="Enter your age">
+               <br> 
+                <p>Please select a gender</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label> 
+               <br><br>     
+                <label id="drop-label" for="frequency">How often do you buy whiskey?</label><br>
+                    <select id="frequency" name="frequency">
+                        <option value="never">Never</option>
+                        <option value="year">once a year</option>
+                        <option value="month">Once a month</option>
+                        <option value="week">Once a week</option>
+                        <option value="other">Other</option>
+                    </select>
+                <br>
+                <p id="whisky-types">What types of whiskeys do you like?</p>
+                <input type="checkbox" id="whiskey1" name="whiskey1" value="Scotch">
+                    <label for="whiskey1">Scotch</label><br>
+                <input type="checkbox" id="whiskey2" name="whiskey2" value="Bourbon">
+                    <label for="whiskey2">Bourbon</label><br>
+                <input type="checkbox" id="whiskey3" name="whiskey3" value="Japanese">
+                    <label for="whiskey3">Japanese</label><br>
+                <input type="checkbox" id="whiskey4" name="whiskey4" value="Irish">
+                    <label for="whiskey4">Irish</label><br>
+                <input type="checkbox" id="whiskey5" name="whiskey5" value="Canadian">
+                    <label for="whiskey5">Canadian</label><br>
+                <input type="checkbox" id="whiskey6" name="whiskey6" value="Rye">
+                    <label for="whiskey6">Rye</label><br>
+                <input type="checkbox" id="whiskey7" name="whiskey7" value="Other">
+                    <label for="whiskey7">Other</label>
+               <br><br>
+               <label for="drinkpref">How do you like to drink your wiskey?</label><br>
+               <select id="drinkpref" name="drinkpref">
+                   <option value="neat">Neat</option>
+                   <option value="water">Splash of water</option>
+                   <option value="rocks">On the rocks</option>
+                   <option value="cocktail">In cocktails</option>
+               </select>
+              <br><br>
+               <label for="whiskeystories">Tell us about for favorite whiskey.</label><br>
+               <textarea id="whiskeystories" name="whiskeystories" rows="4" cols="50"></textarea><br>
+               <input id="submit" type="submit">
+            </form>
+        </main>
+    </body>
+</html>
